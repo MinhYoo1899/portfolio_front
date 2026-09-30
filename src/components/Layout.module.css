@@ -1,0 +1,9 @@
+.nav {
+  border-bottom: 1px solid var(--border);
+}
+
+.main {
+  max-width: 880px;
+  margin: 0 auto;
+  padding: 24px 16px 64px;
+}

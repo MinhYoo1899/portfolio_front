@@ -1,0 +1,410 @@
+{
+  "version": "1.0.0",
+  "lastScanned": 1779606269904,
+  "projectRoot": "C:\\Users\\kallon\\projects\\board-app",
+  "techStack": {
+    "languages": [
+      {
+        "name": "JavaScript/TypeScript",
+        "version": null,
+        "confidence": "high",
+        "markers": [
+          "package.json"
+        ]
+      },
+      {
+        "name": "TypeScript",
+        "version": null,
+        "confidence": "high",
+        "markers": [
+          "tsconfig.json"
+        ]
+      }
+    ],
+    "frameworks": [
+      {
+        "name": "react",
+        "version": "19.2.6",
+        "category": "frontend"
+      },
+      {
+        "name": "react-dom",
+        "version": "19.2.6",
+        "category": "frontend"
+      },
+      {
+        "name": "vite",
+        "version": "8.0.12",
+        "category": "build"
+      }
+    ],
+    "packageManager": "npm",
+    "runtime": null
+  },
+  "build": {
+    "buildCommand": "cd \"C:\\Users\\kallon\\projects\\board-app\" && npm run build 2>&1",
+    "testCommand": null,
+    "lintCommand": "npm run lint",
+    "devCommand": "npm run dev",
+    "scripts": {
+      "dev": "vite",
+      "build": "tsc -b && vite build",
+      "lint": "eslint .",
+      "preview": "vite preview"
+    }
+  },
+  "conventions": {
+    "namingStyle": null,
+    "importStyle": null,
+    "testPattern": null,
+    "fileOrganization": null
+  },
+  "structure": {
+    "isMonorepo": false,
+    "workspaces": [],
+    "mainDirectories": [
+      "public",
+      "src"
+    ],
+    "gitBranches": null
+  },
+  "customNotes": [],
+  "directoryMap": {
+    "public": {
+      "path": "public",
+      "purpose": "Public files",
+      "fileCount": 2,
+      "lastAccessed": 1779606269858,
+      "keyFiles": [
+        "favicon.svg",
+        "icons.svg"
+      ]
+    },
+    "src": {
+      "path": "src",
+      "purpose": "Source code",
+      "fileCount": 4,
+      "lastAccessed": 1779606269859,
+      "keyFiles": [
+        "App.css",
+        "App.tsx",
+        "index.css",
+        "main.tsx"
+      ]
+    },
+    "src\\assets": {
+      "path": "src\\assets",
+      "purpose": "Static assets",
+      "fileCount": 3,
+      "lastAccessed": 1779606269878,
+      "keyFiles": [
+        "hero.png",
+        "react.svg",
+        "vite.svg"
+      ]
+    }
+  },
+  "hotPaths": [
+    {
+      "path": "src\\App.tsx",
+      "accessCount": 7,
+      "lastAccessed": 1779608003923,
+      "type": "file"
+    },
+    {
+      "path": "package.json",
+      "accessCount": 7,
+      "lastAccessed": 1779608074250,
+      "type": "file"
+    },
+    {
+      "path": "src\\main.tsx",
+      "accessCount": 6,
+      "lastAccessed": 1779608435210,
+      "type": "file"
+    },
+    {
+      "path": "tsconfig.app.json",
+      "accessCount": 5,
+      "lastAccessed": 1779607996730,
+      "type": "file"
+    },
+    {
+      "path": "eslint.config.js",
+      "accessCount": 5,
+      "lastAccessed": 1779608001380,
+      "type": "file"
+    },
+    {
+      "path": "src\\features\\posts\\types.ts",
+      "accessCount": 5,
+      "lastAccessed": 1779609101166,
+      "type": "file"
+    },
+    {
+      "path": "vite.config.ts",
+      "accessCount": 4,
+      "lastAccessed": 1779607866634,
+      "type": "file"
+    },
+    {
+      "path": "src\\features\\auth\\useAuth.ts",
+      "accessCount": 4,
+      "lastAccessed": 1779608478606,
+      "type": "file"
+    },
+    {
+      "path": "src\\features\\auth\\AuthContext.tsx",
+      "accessCount": 4,
+      "lastAccessed": 1779608761605,
+      "type": "file"
+    },
+    {
+      "path": "src\\index.css",
+      "accessCount": 3,
+      "lastAccessed": 1779608003357,
+      "type": "file"
+    },
+    {
+      "path": "src\\features\\auth\\types.ts",
+      "accessCount": 3,
+      "lastAccessed": 1779608150258,
+      "type": "file"
+    },
+    {
+      "path": "src\\lib\\id.ts",
+      "accessCount": 3,
+      "lastAccessed": 1779608158041,
+      "type": "file"
+    },
+    {
+      "path": "src\\components\\Layout.tsx",
+      "accessCount": 3,
+      "lastAccessed": 1779608424134,
+      "type": "file"
+    },
+    {
+      "path": "src\\features\\auth\\RequireAuth.tsx",
+      "accessCount": 3,
+      "lastAccessed": 1779608764925,
+      "type": "file"
+    },
+    {
+      "path": "src\\features\\auth\\LoginPage.tsx",
+      "accessCount": 3,
+      "lastAccessed": 1779608765423,
+      "type": "file"
+    },
+    {
+      "path": "src\\features\\posts\\api\\postRepository.ts",
+      "accessCount": 3,
+      "lastAccessed": 1779608770977,
+      "type": "file"
+    },
+    {
+      "path": "src\\lib\\storage.ts",
+      "accessCount": 3,
+      "lastAccessed": 1779608772818,
+      "type": "file"
+    },
+    {
+      "path": "src\\features\\auth\\permissions.ts",
+      "accessCount": 3,
+      "lastAccessed": 1779608783052,
+      "type": "file"
+    },
+    {
+      "path": "src\\features\\categories\\categories.ts",
+      "accessCount": 3,
+      "lastAccessed": 1779608784929,
+      "type": "file"
+    },
+    {
+      "path": "src\\lib\\paginate.ts",
+      "accessCount": 3,
+      "lastAccessed": 1779608792816,
+      "type": "file"
+    },
+    {
+      "path": "src\\App.css",
+      "accessCount": 2,
+      "lastAccessed": 1779607899795,
+      "type": "file"
+    },
+    {
+      "path": "src\\features\\auth\\mockUsers.ts",
+      "accessCount": 2,
+      "lastAccessed": 1779607991977,
+      "type": "file"
+    },
+    {
+      "path": "src\\features\\categories\\types.ts",
+      "accessCount": 2,
+      "lastAccessed": 1779607999265,
+      "type": "file"
+    },
+    {
+      "path": "src\\components\\Layout.module.css",
+      "accessCount": 2,
+      "lastAccessed": 1779608364461,
+      "type": "file"
+    },
+    {
+      "path": "src\\features\\auth\\authContext.ts",
+      "accessCount": 2,
+      "lastAccessed": 1779608450189,
+      "type": "file"
+    },
+    {
+      "path": "src\\features\\posts\\api\\localPostRepository.ts",
+      "accessCount": 2,
+      "lastAccessed": 1779608756239,
+      "type": "file"
+    },
+    {
+      "path": "src\\features\\posts\\api\\seed.ts",
+      "accessCount": 2,
+      "lastAccessed": 1779608766833,
+      "type": "file"
+    },
+    {
+      "path": "src\\features\\posts\\api\\httpPostRepository.ts",
+      "accessCount": 2,
+      "lastAccessed": 1779608771461,
+      "type": "file"
+    },
+    {
+      "path": "src\\features\\posts\\api\\repositoryProvider.ts",
+      "accessCount": 2,
+      "lastAccessed": 1779608772008,
+      "type": "file"
+    },
+    {
+      "path": "src\\components\\Pagination.tsx",
+      "accessCount": 2,
+      "lastAccessed": 1779608777395,
+      "type": "file"
+    },
+    {
+      "path": "src\\components\\CategoryFilter.tsx",
+      "accessCount": 2,
+      "lastAccessed": 1779608777927,
+      "type": "file"
+    },
+    {
+      "path": "src\\components\\SortSelect.tsx",
+      "accessCount": 2,
+      "lastAccessed": 1779608778388,
+      "type": "file"
+    },
+    {
+      "path": "src\\api\\queryClient.ts",
+      "accessCount": 2,
+      "lastAccessed": 1779608783591,
+      "type": "file"
+    },
+    {
+      "path": "tsconfig.json",
+      "accessCount": 1,
+      "lastAccessed": 1779607091571,
+      "type": "file"
+    },
+    {
+      "path": ".prettierrc",
+      "accessCount": 1,
+      "lastAccessed": 1779607888864,
+      "type": "file"
+    },
+    {
+      "path": ".prettierignore",
+      "accessCount": 1,
+      "lastAccessed": 1779607890609,
+      "type": "file"
+    },
+    {
+      "path": "src\\api\\httpClient.ts",
+      "accessCount": 1,
+      "lastAccessed": 1779607911873,
+      "type": "file"
+    },
+    {
+      "path": "index.html",
+      "accessCount": 1,
+      "lastAccessed": 1779607933882,
+      "type": "file"
+    },
+    {
+      "path": "src\\components\\SearchBar.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1779608017262,
+      "type": "file"
+    },
+    {
+      "path": "src\\components\\SearchBar.module.css",
+      "accessCount": 1,
+      "lastAccessed": 1779608019288,
+      "type": "file"
+    },
+    {
+      "path": "src\\components\\CategoryFilter.module.css",
+      "accessCount": 1,
+      "lastAccessed": 1779608027809,
+      "type": "file"
+    },
+    {
+      "path": "src\\components\\SortSelect.module.css",
+      "accessCount": 1,
+      "lastAccessed": 1779608037717,
+      "type": "file"
+    },
+    {
+      "path": "src\\features\\auth\\LoginPage.module.css",
+      "accessCount": 1,
+      "lastAccessed": 1779608042012,
+      "type": "file"
+    },
+    {
+      "path": "src\\components\\Pagination.module.css",
+      "accessCount": 1,
+      "lastAccessed": 1779608048841,
+      "type": "file"
+    },
+    {
+      "path": "src\\components\\EmptyState.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1779608054414,
+      "type": "file"
+    },
+    {
+      "path": "src\\components\\EmptyState.module.css",
+      "accessCount": 1,
+      "lastAccessed": 1779608056241,
+      "type": "file"
+    },
+    {
+      "path": "src\\components\\ErrorState.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1779608057529,
+      "type": "file"
+    },
+    {
+      "path": "src\\components\\ErrorState.module.css",
+      "accessCount": 1,
+      "lastAccessed": 1779608058994,
+      "type": "file"
+    },
+    {
+      "path": "src\\components\\Spinner.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1779608060215,
+      "type": "file"
+    },
+    {
+      "path": "src\\components\\Spinner.module.css",
+      "accessCount": 1,
+      "lastAccessed": 1779608061345,
+      "type": "file"
+    }
+  ],
+  "userDirectives": []
+}

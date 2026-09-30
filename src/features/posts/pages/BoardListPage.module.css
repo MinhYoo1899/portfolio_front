@@ -1,0 +1,36 @@
+.page {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.title {
+  margin: 0;
+}
+
+.write {
+  padding: 8px 16px;
+  color: #fff;
+  background: var(--accent);
+  border-radius: 6px;
+  white-space: nowrap;
+}
+
+.write:hover {
+  text-decoration: none;
+  filter: brightness(0.95);
+}
+
+.controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  align-items: center;
+}

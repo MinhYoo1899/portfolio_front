@@ -1,0 +1,32 @@
+.form {
+  display: flex;
+  gap: 8px;
+  flex: 1 1 auto;
+}
+
+.input {
+  flex: 1 1 auto;
+  min-width: 0;
+  padding: 8px 12px;
+  font: inherit;
+  color: var(--text);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+}
+
+.input:focus {
+  outline: none;
+  border-color: var(--accent-border);
+}
+
+.button {
+  padding: 8px 16px;
+  color: #fff;
+  background: var(--accent);
+  border: 1px solid var(--accent);
+  border-radius: 6px;
+}
+
+.button:hover {
+  filter: brightness(0.95);
+}

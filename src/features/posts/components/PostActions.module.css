@@ -1,0 +1,38 @@
+.actions {
+  display: flex;
+  gap: 8px;
+}
+
+.edit,
+.delete {
+  padding: 6px 14px;
+  font: inherit;
+  border-radius: 6px;
+  border: 1px solid var(--border);
+}
+
+.edit {
+  color: var(--text);
+  background: var(--bg);
+}
+
+.edit:hover {
+  text-decoration: none;
+  border-color: var(--accent-border);
+}
+
+.delete {
+  color: var(--danger);
+  background: var(--bg);
+  border-color: var(--danger);
+}
+
+.delete:hover:not(:disabled) {
+  background: var(--danger);
+  color: #fff;
+}
+
+.delete:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
